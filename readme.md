@@ -8,9 +8,9 @@ Git wurde ursprünglich von Linus Torvalds für die Entwicklung des Linux-Kernel
 
 Ein Git-Server enthält dabei mehrere Repositorys ("Projekte"), auf die jeweils speziell zugelassene Nutzer Zugriff haben. Jeder dieser Nutzer hat das gesamte Repository als lokale Kopie auf dem eigenen Rechner. Auf den Rechner läuft auch der Git-Client, das Kommandozeilenprogramm git.
 
-Im Prinzip geht es darum, das jeder Nutzer Änderungen an seiner lokalen Kopie des Projekts vornehmen kann. All diese Änderungen werden zum Git-Server geschickt und für jeden Nutzer wird versucht, eine Strategie zur Zusammenführung zu finden. Trivialerweise haben keine zwei Nutzer die gleiche Datei bearbeitet, dann nämlich geschieht das Zusammenführen automatisch. Ist es doch der Fall, hilft das Programm git dabei, den *Konflikt* zu lösen.
+Im Prinzip geht es darum, dass jeder Nutzer Änderungen an seiner lokalen Kopie des Projekts vornehmen kann. All diese Änderungen werden zum Git-Server geschickt und für jeden Nutzer wird versucht, eine Strategie zur Zusammenführung zu finden. Trivialerweise haben keine zwei Nutzer die gleiche Datei bearbeitet, dann nämlich geschieht das Zusammenführen automatisch. Ist es doch der Fall, hilft das Programm git dabei, den *Konflikt* zu lösen.
 
-GitHub, Inc. betreibt github.com als eine SaaS (*Software as a Service*). GitHub versteht sich eher als Social Network, was seinen Usern Git-Server kostenlos zur Verfügung stellt und sie anhält, an den Projekten anderer mitzuwirken (*pill request*). Zusätzlich zu den Funktionen von Git gibt es dann noch Nutzerprofile, Statistiken, Issue Tracker, Wikis, Foren und einen Online-Repository-Browser (quasi eine Webseite, die wie ein Dateimanager auf die lokale Repository-Kopie des Git-Server zugreift). 
+GitHub, Inc. betreibt github.com als eine SaaS (*Software as a Service*). GitHub versteht sich eher als Social Network, was seinen Usern Git-Server kostenlos zur Verfügung stellt und sie anhält, an den Projekten anderer mitzuwirken (*pull request*). Zusätzlich zu den Funktionen von Git gibt es dann noch Nutzerprofile, Statistiken, Issue Tracker, Wikis, Foren und einen Online-Repository-Browser (quasi eine Webseite, die wie ein Dateimanager auf die lokale Repository-Kopie des Git-Server zugreift). 
 
 ## Kommandos
 
