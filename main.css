@@ -1,0 +1,9 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p.einziger-paragraph {
+    width: 100%;
+    text-align: center;
+}
